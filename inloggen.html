@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>NS Verhalen</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/images/ns-favi.png" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html"> <img src="assets/images/logo-ns.png" alt="Logo van de NS"> </a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inloggen.html">Zoek</a></li>
+                <li><a href="#.html">Account</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Inloggen</legend>
+                <p>U dient eerst in te loggen voor u de leukste verhalen kunt lezen.</p>
+                <label>Gebruikersnaam</label>
+                <input required type="text" name="username">
+
+                <label>Wachtwoord</label>
+                <input required type="password" name="pwd" pattern=".{6,}" title="Het wachtwoord moet 6 of meer karakters bevatten">
+
+
+
+                <input type="submit" name="submit" value="Login"> <a href="registreren.html">Of maak hier een account aan.</a>
+            </fieldset>
+        </form>
+
+       </main>
+<script src="assets/javascript/validation.js"></script>
+</body>
+</html>
+
+
+
